@@ -4,17 +4,16 @@
   display: inherit;
 }
 
-div
+.navbar
 {
-  background-color: darkblue;
-  color: white;
+  background-color: darkblue;  
   height: 6vw;
   max-width: 100%;  
   line-height: 6vw;
 }
 
 li
-{
+{  
   list-style-type: none;
   display: inline;
   padding: 10px;
@@ -22,7 +21,12 @@ li
   font-size: 2vw;
 }
 
-h1
+.link
+{
+  color: white;
+}
+
+.homeTitle
 {
   text-align: center;
   color: black;
