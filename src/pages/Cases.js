@@ -7,14 +7,15 @@ class Cases extends Component
 {     
   state = 
   {
-    countries: []
-    
+    countries: [],
+    loading: false    
   } 
 
   async componentDidMount()
   {
+    this.setState({loading: true});
     const response = await ApiSus.get('');    
-    this.setState({countries: Object.values(response.data)});    
+    this.setState({countries: Object.values(response.data), loading: false});    
   }
 
   render()
