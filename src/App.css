@@ -33,3 +33,57 @@ li
   font-size: 8vw;
   line-height: 400px;
 }
+
+/*================================================================================================*/
+/*Style for Case component*/
+
+.caseContainer
+{
+  width: 35vw;
+  height: 35vw;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  border-radius: 25px;
+  line-height: 10vw;
+}
+
+.textAlign
+{
+  text-align: center;
+  padding: 1px;
+  height: 3vw;  
+}
+
+.containerMargin
+{
+  margin-left: 9vw;  
+  display: grid;
+  grid-template-columns: auto auto;  
+  grid-row-gap: 4rem;
+}
+
+.textTitle
+{
+  text-align: center;
+}
+
+.fontSize
+{  
+  font-size: 2vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.pageTitleFont
+{
+  text-align: center;
+  font-size: 7vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontSizeCaseComponent
+{
+  text-align: center;
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
