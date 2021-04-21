@@ -8,11 +8,11 @@ export default function Navbar()
     return (
         <Router>
             <div className = "navbar">                                
-                <li><Link to = "/" className = "link">Home</Link></li>            
+                <li><Link to = "/covid-data-app" className = "link">Home</Link></li>            
                 <li><Link to = "/cases" className = "link">Cases</Link></li>
                                 
                 <Switch>
-                    <Route path = '/' exact component = {Home}></Route>   
+                    <Route path = '/covid-data-app' exact component = {Home}></Route>   
                     <Route path = '/cases' component = {Cases}></Route>                    
                 </Switch>                
             </div>
